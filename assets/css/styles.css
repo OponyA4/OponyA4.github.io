@@ -1,0 +1,51 @@
+.my-section {
+   background-color: #f8f9fa; /* Jasnoszare tło */
+   padding: 40px 0;             /* Dodanie paddingu dla przestrzeni wokół treści */
+   text-align: center;          /* Wyśrodkowanie tekstu */
+}
+
+footer {
+   background-color: #343a40; /* Ciemnoszare tło */
+   color: #fff;               /* Biały tekst */
+}
+
+table {
+   width: 100%;                 /* Ustaw szerokość tabeli na 100% kontenera */
+   border-collapse: collapse;   /* Usuń podwójne ramki */
+}
+
+td {
+   border: 1px solid #ddd;    /* Dodaj ramki do komórek */
+   padding: 8px;                /* Dodaj padding wewnątrz komórek */
+}
+
+tr:nth-child(even) {
+   background-color: #f2f2f2; /* Kolor tła dla parzystych wierszy */
+}
+
+tr:hover {
+   background-color: #ddd;    /* Kolor tła przy najechaniu myszką */
+}
+
+th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: #343a40; /* Ciemne tło dla nagłówków */
+   color: white;              /* Biały tekst dla nagłówków */
+}
+
+hr {
+   border: 1px solid #343a40; /* Ciemnoszara linia */
+   margin-top: 20px;            /* Margines na górze */
+   margin-bottom: 20px;         /* Margines na dole */
+}
+
+.offer-container:after {
+   content: '';                 /* Pusty content, wymagany dla pseudoelementów */
+   display: block;              /* Umożliwia ustawienie wysokości i marginesów */
+   height: 1px;                 /* Wysokość linii */
+   background-color: #343a40; /* Kolor linii */
+   margin-top: 20px;            /* Margines na górze */
+   margin-bottom: 20px;         /* Margines na dole */
+}
