@@ -91,7 +91,14 @@
       <div class="container text-center">
           <p>&copy; 2023 Opony A4. Wszelkie prawa zastrzeżone.</p>
       </div>
-  </footer>
- 
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script>
+      $(document).ready(function() {
+         $('.navbar-toggler').click(function() {
+           $('.navbar-collapse').toggle();
+         });
+      });
+   </script> 
 </body>
 </html>
