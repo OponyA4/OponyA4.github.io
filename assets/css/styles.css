@@ -100,10 +100,32 @@ hr {
    margin-bottom: 20px;         /* Margines na dole */
 }
 
+.navbar-toggler {
+   border: 1px solid #ddd;
+   padding: .25rem .75rem;
+}
+
 /* Responsive layout */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
    .container, header, nav, .content, footer {
-       padding-left: 20px;
-       padding-right: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
    }
+   .navbar-collapse {
+      display: none;
+  }
+  .navbar-toggler {
+      display: block;
+  }
+}
+
+.navbar-toggler {
+   border: 1px solid #ddd;
+   padding: .25rem .75rem;
+}
+
+.google-map {
+   width: 100%;
+   height: auto;
+   aspect-ratio: 16 / 9;
 }
