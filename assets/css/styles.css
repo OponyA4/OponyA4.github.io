@@ -36,20 +36,20 @@
 
 /* Domyślny styl linku telefonu */
 .navbar-brand {
-   padding-left: 10px; /* Dodanie paddingu z lewej strony */
-   padding-right: 10px; /* Dodanie paddingu z prawej strony */
-   background-color: transparent; /* Przezroczyste tło */
+   padding-left: 10px;                /* Dodanie paddingu z lewej strony */
+   padding-right: 10px;               /* Dodanie paddingu z prawej strony */
+   background-color: transparent;     /* Przezroczyste tło */
    transition: background-color 0.3s; /* Gładka zmiana tła */
 }
 
 /* Stylizacja efektu najechania na link telefonu */
 .navbar-brand:hover {
-   background-color: #dbfdec; /* Kolor tła przy najechaniu */
+   background-color: #ceead6; /* Kolor tła przy najechaniu */
 }
 
 /* Stylizacja efektu najechania na linki w menu */
 .nav-link:hover {
-   background-color: #eff9e0; /* Jasny kolor tła przy najechaniu */
+   background-color: #5491f5; /* Jasny kolor tła przy najechaniu */
    border-radius: 5px;          /* Lekko zaokrąglone rogi dla kwadratu */
    padding: 8px 15px;           /* Zwiększony padding dla większego kwadratu */
 }
