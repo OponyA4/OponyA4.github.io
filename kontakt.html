@@ -8,6 +8,7 @@
    <meta name="keywords" content="opony używane">   
    <title>Opony Używane - Najlepsze Oferty</title>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
    <link rel="stylesheet" href="assets/css/styles.css">
    <link rel="Shortcut icon" href="assets/img/favicon.ico">
 </head>
@@ -40,12 +41,14 @@
       <div class="container text-center">
           <p>&copy; 2023 Opony A4. Wszelkie prawa zastrzeżone.</p>
       </div>
-  </footer>
- 
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script>
+      $(document).ready(function() {
+         $('.navbar-toggler').click(function() {
+            $('.navbar-collapse').toggle();
+         });
+      });
+   </script> 
 </body>
-<script>
-   document.querySelector('.navbar-toggler').addEventListener('click', function() {
-       document.querySelector('.navbar-collapse').classList.toggle('show');
-   });
-</script>
 </html>
