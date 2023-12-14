@@ -7,10 +7,13 @@ body {
 
 .main-content {
    flex: 1;
+   background-color: #f0f0f0; 
+   width: 100%;                
+   margin: 0 auto;             
 }
 
 .my-section {
-   background-color: #e0eff9; /* Jasne tło dla wyróżnienia sekcji */
+   background-color: #e0eff9; 
    padding: 20px 0;             /* Dodanie paddingu dla przestrzeni */
    border: 1px solid #ddd;    /* Subtelna ramka */
    border-radius: 5px;          /* Lekko zaokrąglone rogi */
@@ -18,34 +21,34 @@ body {
 }
 
 .container.mt-4 h1 {
-   color: #323232;    /* Wybrany kolor tekstu */
+   color: #323232;   
    margin-bottom: 15px; /* Margines dolny */
 }
 
 .my-section h1 {
-   color: #ceead6;    /* Ciemniejszy kolor tekstu dla nagłówka */
+   color: #ceead6;    
    margin-bottom: 15px; /* Dodanie marginesu pod nagłówkiem */
 }
 
 .my-section h2 {
-   color: #333333;    /* Ciemniejszy kolor tekstu dla nagłówka */
+   color: #333333;    
    margin-bottom: 15px; /* Dodanie marginesu pod nagłówkiem */
 }
 
 .my-section h3 {
-   color: #333333;    /* Ciemniejszy kolor tekstu dla nagłówka */
+   color: #333333;   
    margin-bottom: 15px; /* Dodanie marginesu pod nagłówkiem */
 }
 
 .my-section p {
-   color: #555555; /* Lekko ciemniejszy kolor tekstu */
+   color: #555555; 
    font-size: 0.9em; /* Zmniejszenie czcionki tekstu */
    margin-bottom: 0; /* Usunięcie marginesu na dole paragrafu */
 }
 
 /* Stylizacja menu */
 .navbar {
-   background-color: #e6e6e6;             /* Delikatna zmiana koloru tła */
+   background-color: #e6e6e6;            
    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Dodanie cienia dla wyróżnienia */
    position: fixed;                         /* Ustawienie menu jako stałe */
    top: 0;                                  /* Przyklejenie do górnej części ekranu */
@@ -55,13 +58,13 @@ body {
 
 /* Stylizacja efektu najechania na linki w menu */
 .nav-link:hover {
-   background-color: #a5d0ff; /* Jasny kolor tła przy najechaniu */
+   background-color: #a5d0ff; 
    border-radius: 5px;          /* Lekko zaokrąglone rogi dla kwadratu */
    padding: 8px 15px;           /* Zwiększony padding dla większego kwadratu */
 }
 
 .navbar-brand, .nav-link {
-   color: #333333;            /* Zmiana koloru tekstu */
+   color: #333333;            
    font-weight: bold;           /* Podkreślenie istotności */
 }
 
@@ -71,7 +74,7 @@ body {
 }
 
 .vertical-menu a {
-   background-color: #fff; /* Kolor tła dla linków */
+   background-color: #fff; 
    color: black;           /* Kolor tekstu */
    display: block;           /* Wyświetlanie jako blok */
    padding: 6px;             /* Zmniejszony padding wokół tekstu */
@@ -79,7 +82,7 @@ body {
 }
 
 .vertical-menu a:hover {
-   background-color: #ccc; /* Kolor tła przy najechaniu myszą */
+   background-color: #ccc; 
    border-radius: 5px;       /* Lekko zaokrąglone rogi dla kwadratu */
 }
 
@@ -93,7 +96,7 @@ body {
 
 /* Stylizacja efektu najechania na link telefonu */
 .navbar-brand:hover {
-   background-color: #ceead6; /* Kolor tła przy najechaniu */
+   background-color: #ceead6; 
    border-radius: 5px;          /* Lekko zaokrąglone rogi dla kwadratu */
 }
 
@@ -117,19 +120,19 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-   background-color: #ddd;    /* Kolor tła przy najechaniu myszką */
+   background-color: #ddd;   
 }
 
 th {
    padding-top: 12px;
    padding-bottom: 12px;
    text-align: left;
-   background-color: #343a40; /* Ciemne tło dla nagłówków */
+   background-color: #343a40; 
    color: white;              /* Biały tekst dla nagłówków */
 }
 
 hr {
-   border: 1px solid #343a40; /* Ciemnoszara linia */
+   border: 1px solid #343a40; 
    margin-top: 20px;            /* Margines na górze */
    margin-bottom: 20px;         /* Margines na dole */
 }
@@ -138,7 +141,7 @@ hr {
    content: '';                 /* Pusty content, wymagany dla pseudoelementów */
    display: block;              /* Umożliwia ustawienie wysokości i marginesów */
    height: 1px;                 /* Wysokość linii */
-   background-color: #343a40; /* Kolor linii */
+   background-color: #343a40; 
    margin-top: 20px;            /* Margines na górze */
    margin-bottom: 20px;         /* Margines na dole */
 }
