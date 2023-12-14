@@ -49,7 +49,7 @@
 
 /* Stylizacja efektu najechania na linki w menu */
 .nav-link:hover {
-   background-color: #5491f5; /* Jasny kolor tła przy najechaniu */
+   background-color: #4ca2ff; /* Jasny kolor tła przy najechaniu */
    border-radius: 5px;          /* Lekko zaokrąglone rogi dla kwadratu */
    padding: 8px 15px;           /* Zwiększony padding dla większego kwadratu */
 }
@@ -126,7 +126,7 @@ hr {
 
 .google-map {
    width: 100%;
-   height: 300px; /* Możesz dostosować tę wartość według potrzeb */
+   height: 300px; 
 }
 
 .google-map {
