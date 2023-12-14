@@ -1,9 +1,23 @@
+body {
+   padding-top: 60px; /* Wartość powinna być równa wysokości menu */
+}
+
 .my-section {
    background-color: #e0eff9; /* Jasne tło dla wyróżnienia sekcji */
    padding: 20px 0;             /* Dodanie paddingu dla przestrzeni */
    border: 1px solid #ddd;    /* Subtelna ramka */
    border-radius: 5px;          /* Lekko zaokrąglone rogi */
    text-align: center;          /* Wyśrodkowanie całego tekstu */
+}
+
+.container.mt-4 h1 {
+   color: #323232;    /* Wybrany kolor tekstu */
+   margin-bottom: 15px; /* Margines dolny */
+}
+
+.my-section h1 {
+   color: #ceead6;    /* Ciemniejszy kolor tekstu dla nagłówka */
+   margin-bottom: 15px; /* Dodanie marginesu pod nagłówkiem */
 }
 
 .my-section h2 {
@@ -26,11 +40,40 @@
 .navbar {
    background-color: #e6e6e6;             /* Delikatna zmiana koloru tła */
    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Dodanie cienia dla wyróżnienia */
+   position: fixed;                         /* Ustawienie menu jako stałe */
+   top: 0;                                  /* Przyklejenie do górnej części ekranu */
+   width: 100%;                             /* Szerokość na całą szerokość ekranu */
+   z-index: 1000;                           /* Upewnienie się, że menu jest na wierzchu */
+}
+
+/* Stylizacja efektu najechania na linki w menu */
+.nav-link:hover {
+   background-color: #a5d0ff; /* Jasny kolor tła przy najechaniu */
+   border-radius: 5px;          /* Lekko zaokrąglone rogi dla kwadratu */
+   padding: 8px 15px;           /* Zwiększony padding dla większego kwadratu */
 }
 
 .navbar-brand, .nav-link {
    color: #333333;            /* Zmiana koloru tekstu */
    font-weight: bold;           /* Podkreślenie istotności */
+}
+
+/* Stylizacja menu pionowe*/
+.vertical-menu {
+   width: 200px; /* Szerokość menu */
+}
+
+.vertical-menu a {
+   background-color: #fff; /* Kolor tła dla linków */
+   color: black;           /* Kolor tekstu */
+   display: block;           /* Wyświetlanie jako blok */
+   padding: 6px;             /* Zmniejszony padding wokół tekstu */
+   text-decoration: none;    /* Brak podkreślenia */
+}
+
+.vertical-menu a:hover {
+   background-color: #ccc; /* Kolor tła przy najechaniu myszą */
+   border-radius: 5px;       /* Lekko zaokrąglone rogi dla kwadratu */
 }
 
 /* Domyślny styl linku telefonu */
@@ -45,13 +88,6 @@
 .navbar-brand:hover {
    background-color: #ceead6; /* Kolor tła przy najechaniu */
    border-radius: 5px;          /* Lekko zaokrąglone rogi dla kwadratu */
-}
-
-/* Stylizacja efektu najechania na linki w menu */
-.nav-link:hover {
-   background-color: #a5d0ff; /* Jasny kolor tła przy najechaniu */
-   border-radius: 5px;          /* Lekko zaokrąglone rogi dla kwadratu */
-   padding: 8px 15px;           /* Zwiększony padding dla większego kwadratu */
 }
 
 footer {
