@@ -1,7 +1,3 @@
-body {
-   padding-top: 60px; /* Wartość powinna być równa wysokości menu */
-}
-
 .my-section {
    background-color: #e0eff9; /* Jasne tło dla wyróżnienia sekcji */
    padding: 20px 0;             /* Dodanie paddingu dla przestrzeni */
