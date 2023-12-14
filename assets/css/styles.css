@@ -1,10 +1,9 @@
-/* Stylizacja sekcji .my-section */
 .my-section {
    background-color: #e0eff9; /* Jasne tło dla wyróżnienia sekcji */
-   padding: 20px 0; /* Dodanie paddingu dla przestrzeni */
-   border: 1px solid #ddd; /* Subtelna ramka */
-   border-radius: 5px; /* Lekko zaokrąglone rogi */
-   text-align: center; /* Wyśrodkowanie całego tekstu */
+   padding: 20px 0;             /* Dodanie paddingu dla przestrzeni */
+   border: 1px solid #ddd;    /* Subtelna ramka */
+   border-radius: 5px;          /* Lekko zaokrąglone rogi */
+   text-align: center;          /* Wyśrodkowanie całego tekstu */
 }
 
 .my-section h2 {
@@ -45,11 +44,12 @@
 /* Stylizacja efektu najechania na link telefonu */
 .navbar-brand:hover {
    background-color: #ceead6; /* Kolor tła przy najechaniu */
+   border-radius: 5px;          /* Lekko zaokrąglone rogi dla kwadratu */
 }
 
 /* Stylizacja efektu najechania na linki w menu */
 .nav-link:hover {
-   background-color: #4ca2ff; /* Jasny kolor tła przy najechaniu */
+   background-color: #a5d0ff; /* Jasny kolor tła przy najechaniu */
    border-radius: 5px;          /* Lekko zaokrąglone rogi dla kwadratu */
    padding: 8px 15px;           /* Zwiększony padding dla większego kwadratu */
 }
