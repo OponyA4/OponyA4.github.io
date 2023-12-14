@@ -1,5 +1,12 @@
 body {
    padding-top: 60px; /* Wartość powinna być równa wysokości menu */
+   min-height: 100vh; /* 100% wysokości widoku */
+   display: flex;
+   flex-direction: column;
+}
+
+.main-content {
+   flex: 1;
 }
 
 .my-section {
