@@ -157,6 +157,18 @@ p {
    padding: .25rem .75rem;
 }
 
+.centered-image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.centered-image img {
+   max-width: 100%;
+   height: auto;
+   margin: 10px auto;  
+}
+
 /* Responsywny układ */
 @media (max-width: 768px) {
    .container, header, nav, .content, footer {
