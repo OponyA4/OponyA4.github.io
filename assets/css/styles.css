@@ -131,6 +131,30 @@ th {
    color: white;              /* Biały tekst dla nagłówków */
 }
 
+/* Tabela miniaturka */
+.offers-table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.offers-table .image-cell {
+   padding: 0; /* Usuwa odstęp w komórce z obrazem */
+   vertical-align: top;
+}
+
+.offers-table .description-cell {
+   padding: 10px; /* Odstęp dla komórki opisowej */
+   vertical-align: top;
+   border-left: none; /* Usuwa lewą granicę, aby tekst był bliżej obrazu */
+}
+
+.offer-image {
+   width: 100px;
+   height: auto;
+   border: 1px solid #ccc; /* Dodaje ramkę dookoła obrazu */
+   display: block; /* Zapobiega dodatkowemu odstępowi pod obrazem */
+}
+
 hr {
    border: 1px solid #343a40;
    margin-top: 20px;            /* Margines na górze */
@@ -166,7 +190,7 @@ p {
 .centered-image img {
    max-width: 100%;
    height: auto;
-   margin: 10px auto;  
+   margin: 10px auto;
 }
 
 /* Responsywny układ */
@@ -189,21 +213,16 @@ p {
 }
 
 .google-map {
-   width: 100%;
-   height: 300px;
-}
-
-.google-map {
-   width: 100%;
-   height: 300px;
-   padding-bottom: 50%;
    position: relative;
+   width: 100%;
+   padding-bottom: 50%; /* Procentowa wartość zachowuje proporcje */
+   height: 0;           /* Wysokość ustawiona na 0 zapobiega rozwijaniu kontenera */
 }
 
 .google-map iframe {
-   height: 100%;
-   width: 100%;
-   left: 0;
-   top: 0;
    position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }
